@@ -1,0 +1,29 @@
+body{
+	margin-top: 20px;
+}
+
+.panel-heading, .panel-footer{
+     background-color: #d99f0d !important;
+}
+
+.panel{
+	box-shadow: 10px 10px 5px grey;
+}
+
+.table-bordered, .table-bordered td, .table-bordered th{
+    border-color: #d99f0d !important;
+}
+
+table,th,td{
+	text-align:center;
+}
+
+a{
+	color:black;
+}
+
+.searchLabel{
+	font-size:20px;
+}
+
+
