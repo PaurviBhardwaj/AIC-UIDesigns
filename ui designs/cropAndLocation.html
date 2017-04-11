@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>AIC</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom-styles.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<div class="container">	
+		<div class="row spaceBottom">
+			<div class="col-sm-6">
+					<div class="col-sm-4">
+    					<label>Season Name</label>
+					</div>
+					<div class="col-sm-3">
+						<label><input type="checkbox"> Seasonal</label>
+						<label><input type="checkbox"> Annual</label>
+					</div>
+					<div class="col-sm-3">
+						<label><input type="checkbox"> Biennial</label>
+						<label><input type="checkbox"> Perennial</label>
+					</div>
+			</div>
+			<div class="col-sm-5">
+					<div class="col-sm-6 cropradio">
+    					<label>Inclusion/Exclusion</label>
+					</div>
+					<div class="col-sm-5 cropradio">
+                		<label><input type="radio" name="optradio">Inclusion</label>
+						<label><input type="radio" name="optradio">Exclusion</label>
+					</div>
+			</div>
+		</div>
+		<div class="row spaceBottom">
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Season Name</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="seasonSelection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Crop Group</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="cropGroupSelection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Crop Sub-Group</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="cropSubGroupSelection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+		</div>
+		<div class="row spaceBottom">
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Crop Name</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="cropNameSelection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Crop Variety</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="cropVarietySelection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Crop Phases</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="cropPhasesSelection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+		</div>
+		<div class="row spaceBottom">
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>State</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="stateSelection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Level 3</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="level3Selection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Level 4</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="level4Selection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+		</div>
+		<div class="row spaceBottom">
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Level 5</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="level5Selection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Level 6</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="level6Selection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Level 7</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="level7Selection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+		</div>
+		<div class="row spaceBottom">
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Level 8</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="level8Selection"class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+			<div class="col-sm-4">
+					<div class="col-sm-6">
+    					<label>Level N</label>
+					</div>
+					<div class="col-sm-6">
+                			<select id="levelNSelection" class="cropSelection" data-style="btn-success">
+                            			<option>A</option>
+                            			<option>B</option>
+                            			<option>C</option>
+                    			</select>
+					</div>
+			</div>
+		</div>	
+			
+			<div class=" table-responsive">
+			<table class="table table-bordered table-striped">
+				
+                <thead>
+                  <tr>
+                    <th>Select</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+					<th></th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="radio" name="optradio"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><input type="radio" name="optradio"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+		</div>
+		
+	</div>    	
+
+
+
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+ 
+</body>
+
+</html>

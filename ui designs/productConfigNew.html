@@ -10,6 +10,7 @@
     <title>AIC</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom-styles.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/nav-wizard.bootstrap.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,20 +23,59 @@
 
 <body>
 	<div class="container">
-	  <h2>Product Configuration New</h2>
-	  <div class="panel panel-default">
-	    <div class="panel-heading">
-		<ul class="nav nav-pills nav-wizard">
-    			<li class="active"><a href="#" data-toggle="tab">Product Definition</a></li>
-    			<li><a href="#" data-toggle="tab">Crop and Location</a></li>
-    			<li><a href="#" data-toggle="tab">Coverage Options</a></li>
-			<li><a href="#" data-toggle="tab">Eligible Farmers</a></li>
-			<li><a href="#" data-toggle="tab">Policy Definition</a></li>
-		</ul>
-	    </div>
-	    <div class="panel-body">Panel Content</div>
-	    <div class="panel-footer">Panel Footer</div>
-	  </div>
+                    <h2>Product Configuration New</h2>
+                    
+                    <div class="panel panel-default">
+                          <div class="panel-heading">
+				<ul class="nav nav-pills nav-wizard">
+    					<li class="active"><a data-toggle="tab" href="#ProductDefinition"><b>Product Definition</b></a></li>
+   					<li><a data-toggle="tab" href="#CropLocation"><b>Crop and Location</b></a></li>
+    					<li><a data-toggle="tab" href="#CoverageOptions"><b>Coverage Options</b></a></li>
+    					<li><a data-toggle="tab" href="#EligibleFarmers"><b>Eligible Farmers</b></a></li>
+					<li><a data-toggle="tab" href="#PolicyDefinition"><b>Policy Definition</b></a></li>
+  				</ul>
+                          </div>
+                          	
+                          <div class="panel-body">
+  				<div class="tab-content">
+					<div id="ProductDefinition" class="tab-pane fade in active">
+      						<iframe src="productDefinition.html" height="520" width="1110"></iframe>
+							</div>
+    					<div id="CropLocation" class="tab-pane fade">
+						
+						<iframe src="cropAndLocation.html" height="520" width="1110"></iframe>
+    					</div>
+    					<div id="CoverageOptions" class="tab-pane fade">
+      						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    					</div>
+    					<div id="EligibleFarmers" class="tab-pane fade">
+      						<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    					</div>
+					<div id="PolicyDefinition" class="tab-pane fade">
+      						<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    					</div>
+  				</div>
+                          </div>
+                          
+                          <div class="panel-footer">
+                              <div class="row">
+                                
+                                <div class="col-sm-8 col-lg-offset-3 footerOptions">
+                                    <ul class="nav nav-pills options">
+                                            <li><a href="#"><b>Attach</b></a></li>
+                                            <li><a href="#"><b>Clone</b></a></li>
+                                            <li><a href="#"><b>Save</b></a></li>
+                                            <li><a href="#"><b>Exit</b></a></li>
+                                            <li><a href="#"><b>Save and Exit</b></a></li>
+                                         
+                                    </ul>
+                                 </div>
+                         	</div>
+                          </div>
+
+                          
+                          
+                  </div>
 	</div>
 
 

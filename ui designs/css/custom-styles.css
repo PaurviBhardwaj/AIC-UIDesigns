@@ -26,4 +26,38 @@ a{
 	font-size:20px;
 }
 
+.nav-wizard > li > a {
+	width:190px;
+}
+			
+.nav-wizard{
+	margin-left:15px;
+}
 
+.cropSelection{
+	width:120px;
+}
+
+.options{
+	margin-left:49px;
+}
+
+.spaceBottom{
+	margin-bottom:20px;
+}
+
+.cropradio{
+	padding-left:0;
+}
+
+iframe, object, embed {
+    max-width: 100%;
+}
+
+.footerOptions{
+	margin-left:330px;
+}
+
+.labelPadding{
+		padding-left:30px;
+}
