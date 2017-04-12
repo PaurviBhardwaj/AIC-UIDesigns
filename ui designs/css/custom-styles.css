@@ -42,6 +42,10 @@ a{
 	margin-left:49px;
 }
 
+.options> li > a:hover{
+	color: #d99f0d;
+}
+
 .spaceBottom{
 	margin-bottom:20px;
 }
@@ -60,8 +64,4 @@ iframe, object, embed {
 
 .labelPadding{
 		padding-left:30px;
-}
-
-.tableOptions{
-	background-color:#f9e09f;
 }
