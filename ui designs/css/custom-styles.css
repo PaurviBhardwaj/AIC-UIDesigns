@@ -6,9 +6,7 @@ body{
      background-color: #d99f0d !important;
 }
 
-.panel{
-	box-shadow: 10px 10px 5px grey;
-}
+
 
 .table-bordered, .table-bordered td, .table-bordered th{
     border-color: #d99f0d !important;
@@ -31,15 +29,11 @@ a{
 }
 			
 .nav-wizard{
-	margin-left:15px;
+	margin-left:0px;
 }
 
 .cropSelection{
 	width:120px;
-}
-
-.options{
-	margin-left:49px;
 }
 
 .options> li > a:hover{
@@ -56,10 +50,6 @@ a{
 
 iframe, object, embed {
     max-width: 100%;
-}
-
-.footerOptions{
-	margin-left:330px;
 }
 
 .labelPadding{

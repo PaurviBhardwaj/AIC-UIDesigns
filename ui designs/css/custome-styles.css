@@ -24,7 +24,22 @@ body {
 .container{
 	margin-left:0;
 	margin-right:0;
+	width:100%;
 }
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.logoDiv{
+	background-color: white;   
+   }
 
 /* collapsed sidebar styles */
 @media screen and (max-width: 767px) {
@@ -58,10 +73,6 @@ body {
     padding-top:51px;
   }
   body {
-  padding-top: 90px;  
+  padding-top: 150px;  
 }
-.logoDiv{
-      background-image: url("images/logo1.jpg") ;
-   }
-}
-
+}s
