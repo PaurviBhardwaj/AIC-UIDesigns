@@ -1,15 +1,7 @@
 body {
-  padding-top: 91px;  
+  padding-top: 150px;  
 }
 
-.navbar-brand{
-	
-}
-
-.logo{
-	height:auto;
-	width:100%;
-}
 .text-center {
   padding-top: 20px;
 }
@@ -27,6 +19,11 @@ body {
 #sidebar li {
   border:0 #f2f2f2 solid;
   border-bottom-width:1px;
+}
+
+.container{
+	margin-left:0;
+	margin-right:0;
 }
 
 /* collapsed sidebar styles */
@@ -60,5 +57,11 @@ body {
   #sidebar {
     padding-top:51px;
   }
+  body {
+  padding-top: 90px;  
+}
+.logoDiv{
+      background-image: url("images/logo1.jpg") ;
+   }
 }
 
