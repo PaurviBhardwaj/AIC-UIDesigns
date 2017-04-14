@@ -1,6 +1,25 @@
 body {
-  padding-top: 150px;  
+  padding-top: 160px;  
 }
+
+.navbar-brand{
+	min-height:inherit;
+}
+.navBg
+{
+	background-image:url("../images/logo.jpg");
+	
+	display: block;
+  top: 0;
+  width: 100%;
+  height: 70px;
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	}
+
+.nav-bg i {color:#fff;}
 
 .text-center {
   padding-top: 20px;
@@ -27,22 +46,47 @@ body {
 	width:100%;
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+.footer{
+
+background-color:red;
 }
+
+
 
 .logoDiv{
 	background-color: white;   
    }
+ 
+ .navbar-brand{
+padding-right:30px;
+}
+ 
+   
+.nav-tabs {
+  float: left;
+  border-bottom: 0;
+  
+
+  li {
+    float: none;
+    margin: 0;
+    
+    a {
+      margin-right: 0;
+      border: 0;
+      background-color: #333;
+      
+      &:hover {
+        background-color: #444;
+      }
+    }
+  }
+}
+   
 
 /* collapsed sidebar styles */
 @media screen and (max-width: 767px) {
+	.nav-bg i {color:black;}
   .row-offcanvas {
     position: relative;
     -webkit-transition: all 0.25s ease-out;
@@ -75,4 +119,8 @@ body {
   body {
   padding-top: 150px;  
 }
-}s
+   .navbar-brand{
+	padding-right:0px;
+	}
+
+}

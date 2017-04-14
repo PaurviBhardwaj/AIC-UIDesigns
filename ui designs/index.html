@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/faviconlogo.ico" type="image/x-icon" />
+  <title>AIC OF INDIA LTD.</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="css/custome-styles.css" rel="stylesheet">
     <link href="css/custom-styles.css" rel="stylesheet">
@@ -14,24 +15,34 @@
 </head>
 <body>
 <div class="page-container">
-			
-	<!-- top navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="logoDiv">
+			<!--<div class="logoDiv">
 			<img class="img-responsive visible-lg visible-md center-block" src="images/logo.jpg" alt=""/>
 			<img class="img-responsive visible-xs visible-sm center-block" src="images/logo1.jpg" alt="" height="96px"/>
+		</div>-->
+	<!-- top navbar -->
+    <div class="navbar navbar-default navbar-fixed-top navBg" role="navigation">
+		<div class="row">
+			<div class="col-sm-4">
+				<button type="button" class=" navbar-left  pull-left navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+				   </button>
+				  
+			</div>
+			<div class="col-sm-4">
+				<!--<a href="#"><img class="navbar-left  pull-left" src="images/logo1.jpg" alt=""/></a>-->
+	     
+			</div>
+			<div class="col-sm-4">
+				<a class="navbar-brand nav-bg navbar-right pull-right" href="#"><i class="glyphicon glyphicon-question-sign"></i></a>
+		   <a class="navbar-brand nav-bg navbar-right pull-right" href="#"><i class="glyphicon glyphicon-user"></i></a>
+		   <a class="navbar-brand nav-bg navbar-right pull-right" href="#"><i class="glyphicon glyphicon-log-out"></i></a>
+      
+			</div>
 		</div>
 		
-		 <button type="button" class=" navbar-left  pull-left navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-           </button>
-		<div class="navbar-header navbar-right pull-right">
-			<a class="navbar-brand " href="#"><i class="glyphicon glyphicon-question-sign"></i></a>
-		   <a class="navbar-brand " href="#"><i class="glyphicon glyphicon-user"></i></a>
-		   <a class="navbar-brand " href="#"><i class="glyphicon glyphicon-log-out"></i></a>
-       </div>
+		   
           
     	
        </div>
@@ -55,7 +66,14 @@
                     
                     <div class="panel panel-default">
                           <div class="panel-heading">
-								<ul class="nav nav-pills nav-wizard">
+								<ul class="nav nav-pills nav-wizard visible-lg">
+										<li class="active"><a data-toggle="tab" href="#ProductDefinition"><b>Product Definition</b></a></li>
+										<li><a data-toggle="tab" href="#CropLocation"><b>Crop and Location</b></a></li>
+										<li><a data-toggle="tab" href="#CoverageOptions"><b>Coverage Options</b></a></li>
+										<li><a data-toggle="tab" href="#EligibleFarmers"><b>Eligible Farmers</b></a></li>
+										<li><a data-toggle="tab" href="#PolicyDefinition"><b>Policy Definition</b></a></li>
+								</ul>
+								<ul class="nav nav-tabs nav-stacked tabs-left visible-xs visible-sm visible-md">
 										<li class="active"><a data-toggle="tab" href="#ProductDefinition"><b>Product Definition</b></a></li>
 										<li><a data-toggle="tab" href="#CropLocation"><b>Crop and Location</b></a></li>
 										<li><a data-toggle="tab" href="#CoverageOptions"><b>Coverage Options</b></a></li>
@@ -64,14 +82,14 @@
 								</ul>
                           </div>
                           	
-                          <div class="panel-body">
+                          <div class="panel-body panelContent">
   				<div class="tab-content">
-					<div id="ProductDefinition" class="tab-pane fade in active">
-      						<!--<iframe src="productDefinition.html" height="520" width="1110"></iframe>-->
+					<div id="ProductDefinition" class="tab-pane fade in active embed-responsive embed-responsive-16by9">
+      						<iframe class="embed-responsive-item" src="productDefinition.html"></iframe>
 							</div>
-    					<div id="CropLocation" class="tab-pane fade">
+    					<div id="CropLocation" class="tab-pane fade embed-responsive embed-responsive-16by9">
 						
-						<!--<iframe src="cropAndLocation.html" height="520" width="1110"></iframe>-->
+						<iframe class="embed-responsive-item" src="cropAndLocation.html" ></iframe>
     					</div>
     					<div id="CoverageOptions" class="tab-pane fade">
       						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
@@ -82,7 +100,7 @@
 					<div id="PolicyDefinition" class="tab-pane fade">
       						<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
     					</div>
-  				</div>
+					</div>
                           </div>
                           
                           <div class="panel-footer">
@@ -109,7 +127,7 @@
   </div><!--/.container-->
    <footer class="footer">
       <div class="container">
-        <h4 class="text-muted" align="center">copyright @ Agriculture Insurance Of India Limited</h4>
+        <h4 class="text-muted" align="center">copyright &copy Agriculture Insurance Of India Limited</h4>
       </div>
     </footer>
 

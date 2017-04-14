@@ -1,11 +1,7 @@
-body{
-	margin-top: 20px;
-}
 
 .panel-heading, .panel-footer{
      background-color: #d99f0d !important;
 }
-
 
 
 .table-bordered, .table-bordered td, .table-bordered th{
@@ -20,16 +16,17 @@ a{
 	color:black;
 }
 
+
 .searchLabel{
 	font-size:20px;
 }
 
 .nav-wizard > li > a {
-	width:190px;
+	width:170px;
 }
 			
 .nav-wizard{
-	margin-left:0px;
+	margin-left:45px;
 }
 
 .cropSelection{
