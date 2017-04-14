@@ -1,5 +1,5 @@
 body {
-  padding-top: 160px;  
+  padding-top: 110px;  
 }
 
 .navbar-brand{
@@ -8,18 +8,14 @@ body {
 .navBg
 {
 	background-image:url("../images/logo.jpg");
-	
-	display: block;
-  top: 0;
-  width: 100%;
-  height: 70px;
-    background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+	height:96px;
+
 	}
 
-.nav-bg i {color:#fff;}
+.nav-bg i {
+	color:#fff;
+	margin-top:50px;
+	}
 
 .text-center {
   padding-top: 20px;
@@ -31,6 +27,7 @@ body {
   height: 100%;
   padding-right: 0;
   padding-top: 20px;
+  padding-bottom:20px;
 }
 #sidebar .nav {
   width: 95%;
@@ -38,8 +35,12 @@ body {
 #sidebar li {
   border:0 #f2f2f2 solid;
   border-bottom-width:1px;
+  
 }
 
+#sidebar li a{
+	color:#006400;
+}
 .container{
 	margin-left:0;
 	margin-right:0;
@@ -47,20 +48,19 @@ body {
 }
 
 .footer{
+background-image:url("../images/background.jpg");
+background-repeat:no-repeat;
 
-background-color:red;
 }
 
-
-
-.logoDiv{
-	background-color: white;   
-   }
  
  .navbar-brand{
 padding-right:30px;
 }
- 
+
+.btncolor .icon-bar{
+	background-color: #006400 !important;
+} 
    
 .nav-tabs {
   float: left;
@@ -86,7 +86,7 @@ padding-right:30px;
 
 /* collapsed sidebar styles */
 @media screen and (max-width: 767px) {
-	.nav-bg i {color:black;}
+   
   .row-offcanvas {
     position: relative;
     -webkit-transition: all 0.25s ease-out;
@@ -122,5 +122,28 @@ padding-right:30px;
    .navbar-brand{
 	padding-right:0px;
 	}
+.navBg
+{
+	background-image:url("../images/logo1.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-color:white;
+	}
+	.nav-bg i {
+		color: #006400;
+		margin-top:0px;
+	}
+	
+}
 
+
+@media screen and (max-width: 1199px){
+	.navBg
+{
+	background-image:url("../images/logo1.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-color:white;
+	}
+	.nav-bg i {color: #006400;}
 }
