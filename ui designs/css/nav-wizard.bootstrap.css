@@ -59,14 +59,14 @@
 }
 .nav-pills.nav-wizard > li.active:not(:last-child) a:after {
   border-color: transparent transparent transparent white;
-  color: #d99f0d;
+  color: #66B233;
 }
 .nav-pills.nav-wizard > li.active:not(:first-child) a:before {
   border-color: white white white transparent;
-  color: #d99f0d;
+  color: #66B233;
 }
 .nav-pills.nav-wizard > li.active a {
   background-color: white;
-  color: #d99f0d;
+  color: #66B233;
 }
 

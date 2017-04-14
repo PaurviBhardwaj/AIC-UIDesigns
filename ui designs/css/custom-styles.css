@@ -1,11 +1,11 @@
 
 .panel-heading, .panel-footer{
-     background-color: #b3ffb3 !important;
+     background-color: #66B233 !important;
 }
 
 
 .table-bordered, .table-bordered td, .table-bordered th{
-    border-color: #d99f0d !important;
+    border-color: #66B233 !important;
 }
 
 table,th,td{
@@ -33,8 +33,17 @@ a{
 	width:120px;
 }
 
+.pillsOptionsProductDef{
+	margin-top:40px;
+	padding-left:80px;
+}
+
+.pillsOptions{
+	padding-left:80px;
+}
+
 .options> li > a:hover{
-	color: #d99f0d;
+	color: #66B233;
 }
 
 .spaceBottom{
@@ -53,5 +62,5 @@ iframe, object, embed {
 		padding-left:30px;
 }
 .tableOptions{
-	background-color:#f9e09f;
+	background-color:#ADE857;
 }

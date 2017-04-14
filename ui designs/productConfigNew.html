@@ -1,49 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>AIC</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/faviconlogo.ico" type="image/x-icon" />
+  <title>AIC OF INDIA LTD.</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/custome-styles.css" rel="stylesheet">
     <link href="css/custom-styles.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/nav-wizard.bootstrap.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-	<div class="container">
-                    <h2>Product Configuration New</h2>
+<div class="page-container">
+			<!--<div class="logoDiv">
+			<img class="img-responsive visible-lg visible-md center-block" src="images/logo.jpg" alt=""/>
+			<img class="img-responsive visible-xs visible-sm center-block" src="images/logo1.jpg" alt="" height="96px"/>
+		</div>-->
+	<!-- top navbar -->
+    <div class="navbar navbar-default navbar-fixed-top " role="navigation">
+		<div class="logoDiv">
+			<img class="img-responsive visible-lg visible-md center-block" src="images/logo.jpg" alt=""/>
+			<img class="img-responsive visible-xs visible-sm center-block" src="images/logo1.jpg" alt="" height="96px"/>
+		</div>
+			
+				<button type="button" class=" navbar-left  pull-left navbar-toggle btncolor" data-toggle="offcanvas" data-target=".sidebar-nav">
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+				   </button>
+				  
+			
+			<label class="navbar-brand navbar-left pull-left" href="#">Welcome User!!</label>
+		  
+		   <a class="navbar-brand nav-bg navbar-right pull-right" href="#"><i class="glyphicon glyphicon-log-out"></i></a>
+		   <a class="navbar-brand nav-bg navbar-right pull-right" href="#"><i class="glyphicon glyphicon-question-sign"></i></a>
+            <a class="navbar-brand nav-bg navbar-right pull-right" href="#"><i class="glyphicon glyphicon-user"></i></a>
+			
+		
+		
+		   
+          
+    	
+    </div>  
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-left">
+        
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
+            <ul class="nav">
+              <li class="active"><a href="index.html"><b>Home</b></a></li>
+			  <li>
+				  <a class=" dropdown-toggle "  data-toggle="dropdown"><b>Product Configuration</b>
+				  <span class="caret"></span></a>
+				  <ul class="dropdown-menu dropdown-menu-right">
+				  
+					<li><a href="#">Search</a></li>
+					<li><a href="#">New</a></li>
+				  </ul>
+			  </li>
+              <li><a href="#"><b>Link </b></a></li>
+              <li><a href="#"><b>Link </b></a></li>
+				<li><a href="#"><b>Link </b></a></li>
+				<li><a href="#"><b>Link </b></a></li>
+              <li><a href="#"><b>Link </b></a></li>
+				<li><a href="#"><b>Link </b></a></li>
+				
+            </ul>
+        </div>
+  	
+        <!-- main area -->
+        <div class="col-xs-12 col-sm-10">
                     
                     <div class="panel panel-default">
                           <div class="panel-heading">
-				<ul class="nav nav-pills nav-wizard">
-    					<li class="active"><a data-toggle="tab" href="#ProductDefinition"><b>Product Definition</b></a></li>
-   					<li><a data-toggle="tab" href="#CropLocation"><b>Crop and Location</b></a></li>
-    					<li><a data-toggle="tab" href="#CoverageOptions"><b>Coverage Options</b></a></li>
-    					<li><a data-toggle="tab" href="#EligibleFarmers"><b>Eligible Farmers</b></a></li>
-					<li><a data-toggle="tab" href="#PolicyDefinition"><b>Policy Definition</b></a></li>
-  				</ul>
+								<ul class="nav nav-pills nav-wizard visible-lg">
+										<li class="active"><a data-toggle="tab" href="#ProductDefinition"><b>Product Definition</b></a></li>
+										<li><a data-toggle="tab" href="#CropLocation"><b>Crop and Location</b></a></li>
+										<li><a data-toggle="tab" href="#CoverageOptions"><b>Coverage Options</b></a></li>
+										<li><a data-toggle="tab" href="#EligibleFarmers"><b>Eligible Farmers</b></a></li>
+										<li><a data-toggle="tab" href="#PolicyDefinition"><b>Policy Definition</b></a></li>
+								</ul>
+								<ul class="nav nav-tabs nav-stacked tabs-left visible-xs visible-sm visible-md">
+										<li class="active"><a data-toggle="tab" href="#ProductDefinition"><b>Product Definition</b></a></li>
+										<li><a data-toggle="tab" href="#CropLocation"><b>Crop and Location</b></a></li>
+										<li><a data-toggle="tab" href="#CoverageOptions"><b>Coverage Options</b></a></li>
+										<li><a data-toggle="tab" href="#EligibleFarmers"><b>Eligible Farmers</b></a></li>
+										<li><a data-toggle="tab" href="#PolicyDefinition"><b>Policy Definition</b></a></li>
+								</ul>
                           </div>
                           	
-                          <div class="panel-body">
+                          <div class="panel-body panelContent">
   				<div class="tab-content">
-					<div id="ProductDefinition" class="tab-pane fade in active">
-      						<iframe src="productDefinition.html" height="520" width="1110"></iframe>
+					<div id="ProductDefinition" class="tab-pane fade in active embed-responsive embed-responsive-16by9">
+      						<iframe class="embed-responsive-item" src="productDefinition.html"></iframe>
 							</div>
-    					<div id="CropLocation" class="tab-pane fade">
+    					<div id="CropLocation" class="tab-pane fade embed-responsive embed-responsive-16by9">
 						
-						<iframe src="cropAndLocation.html" height="520" width="1110"></iframe>
+						<iframe class="embed-responsive-item" src="cropAndLocation.html" ></iframe>
     					</div>
     					<div id="CoverageOptions" class="tab-pane fade">
       						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
@@ -54,37 +110,33 @@
 					<div id="PolicyDefinition" class="tab-pane fade">
       						<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
     					</div>
-  				</div>
+						
+					</div>
                           </div>
                           
-                          <div class="panel-footer">
-                              <div class="row">
-                                
-                                <div class="col-sm-5 col-lg-offset-7 col-md-offset-7">
-                                    <ul class="nav nav-pills options">
-                                            <li><a href="#"><b>Attach</b></a></li>
-                                            <li><a href="#"><b>Clone</b></a></li>
-                                            <li><a href="#"><b>Save</b></a></li>
-                                            <li><a href="#"><b>Exit</b></a></li>
-                                            <li><a href="#"><b>Save and Exit</b></a></li>
-                                         
-                                    </ul>
-                                 </div>
-                         	</div>
-                          </div>
 
                           
                           
                   </div>
-	</div>
+        </div><!-- /.col-xs-12 main -->
+    </div><!--/.row-->
+  </div><!--/.container-->
+   <footer class="footer">
+      <div class="container">
+        <h4 class="text-muted" align="center">copyright &copy Agriculture Insurance Of India Limited</h4>
+      </div>
+    </footer>
 
 
-    <!-- /#wrapper -->
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
- 
+</div><!--/.page-container-->
+
+	
 </body>
-
+<script>
+$(document).ready(function() {
+  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+  });
+});
+</script>
 </html>

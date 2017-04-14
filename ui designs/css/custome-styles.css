@@ -1,5 +1,5 @@
 body {
-  padding-top: 110px;  
+  padding-top: 160px;  
 }
 
 .navbar-brand{
@@ -13,8 +13,7 @@ body {
 	}
 
 .nav-bg i {
-	color:#fff;
-	margin-top:50px;
+	color:#006400;
 	}
 
 .text-center {
@@ -85,6 +84,8 @@ padding-right:30px;
    
 
 /* collapsed sidebar styles */
+
+
 @media screen and (max-width: 767px) {
    
   .row-offcanvas {
@@ -133,11 +134,22 @@ padding-right:30px;
 		color: #006400;
 		margin-top:0px;
 	}
-	
+	.logoDiv{
+		background-color:white;
+	}
+	 .navbar-brand{
+padding-right:0px;
+}
 }
 
 
 @media screen and (max-width: 1199px){
+	 .navbar-brand{
+padding-right:0px;
+}
+	.logoDiv{
+		background-color:white;
+	}
 	.navBg
 {
 	background-image:url("../images/logo1.jpg");
